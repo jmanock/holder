@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component,Fragment } from 'react';
 import './App.css';
-import Index from './Index.jsx';
+import CalendarTest from './Main';
 
 class App extends Component {
   render() {
     return (
-      <Index />
+      <Fragment>
+        <CalendarTest />
+      </Fragment>
+
     );
   }
 }
